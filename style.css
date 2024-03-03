@@ -209,6 +209,57 @@ nav button {
     }
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .first {
+        flex-direction: column;
+        max-width: 80vw !important;
+        padding: 30px 0 0 0 !important;
+        height: auto;
+        text-align: center;
+    }
+
+    .first>div {
+        margin-bottom: 1rem !important;
+    }
+
+    .first>div :nth-child(1) {
+        font-size: 2rem !important;
+    }
+
+    .first>div :nth-child(2) {
+        font-size: 1.125rem !important;
+    }
+
+    .sec-img {
+        max-width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .sec-img img {
+        width: 100% !important;
+        display: block;
+        margin-bottom: 2rem !important;
+    }
+
+    .sec-img video {
+        left: 34px !important;
+        top: 40px !important;
+        width: 58vw !important;
+    }
+
+
+}
+
+/* 
+@media screen and (min-width: 480px) {
+    .sec-img video {
+        left: 51px !important;
+        top: 60px !important;
+        width: 59vw !important;
+        margin: 0 auto !important;
+    } */
+
 
 .first {
     display: flex;
