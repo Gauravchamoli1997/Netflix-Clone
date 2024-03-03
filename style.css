@@ -252,14 +252,14 @@ nav button {
 }
 
 
-@media screen and (width: 480px) {
+/* @media screen and (width: 480px) {
     .sec-img video {
         left: 50px !important;
         top: 60px !important;
         width: 60vw !important;
         margin: 0 auto !important;
     }
-}
+} */
 
 
 .first {
@@ -285,7 +285,7 @@ nav button {
 
 .sec-img video {
     position: absolute;
-    left: 60px;
+    left: 59px;
     width: 24vw;
     top: 70px;
 }
