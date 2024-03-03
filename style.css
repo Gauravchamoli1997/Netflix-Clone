@@ -251,14 +251,15 @@ nav button {
 
 }
 
-/* 
+
 @media screen and (min-width: 480px) {
     .sec-img video {
-        left: 51px !important;
+        left: 50px !important;
         top: 60px !important;
         width: 59vw !important;
         margin: 0 auto !important;
-    } */
+    }
+}
 
 
 .first {
