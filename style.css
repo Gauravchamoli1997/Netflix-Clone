@@ -251,19 +251,43 @@ nav button {
         top: 40px !important;
         width: 58vw !important;
     }
+.second-sec,
+.fourth-sec {
+    flex-direction: column-reverse;
+}
 
+.sec-img1 {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    overflow: hidden;
+}
 
+.sec-img1 img {
+    width: 100% !important;
+}
+
+.sec-img1 video {
+    left: 49px !important;
+    width: 49vw !important;
+    top: 22px !important;
+}
 }
 
 
-/* @media screen and (width: 480px) {
+@media screen and (width: 480px) {
     .sec-img video {
         left: 50px !important;
         top: 60px !important;
         width: 60vw !important;
         margin: 0 auto !important;
     }
-} */
+
+    .sec-img1 video {
+        left: 73px !important;
+        width: 49vw !important;
+        top: 37px !important;
+    }
+}
 
 
 .first {
